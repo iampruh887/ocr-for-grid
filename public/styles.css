@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f4; /* Light gray-blue background */
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 30px auto; /* Center the container */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+/* Extracted text styles */
+.extracted-text {
+    max-height: 250px; /* Increased height for more scrollable area */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 36px; /* Font size for better readability */
+    line-height: 1.5; /* Spacing between lines */
+    background: linear-gradient(135deg, #e0f7fa, #80deea); /* Light blue gradient */
+    border: 1px solid #007bff; /* Blue border */
+    border-style: solid;
+}
+
+.extracted-text:hover{
+    transform: scale(3);
+}
+
+/* Expiration date styles */
+.expiration-container {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0; /* Margin for spacing */
+    background: linear-gradient(135deg, #fff9c4, #fff176); /* Light yellow gradient */
+    border: 1px solid #ffeeba; /* Yellow border */
+}
+
+/* Link styles */
+a {
+    display: inline-block; /* Block display for padding */
+    margin-top: 20px; /* Spacing above link */
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    background-color: #28a745; /* Green background */
+    padding: 10px 15px; /* Padding around link */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+
+a:hover {
+    background-color: #218838; /* Darker green on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}

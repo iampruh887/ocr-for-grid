@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Result</title>
+    <link rel="stylesheet" href="/styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>OCR Result</h1>
+        <div class="extracted-text"><strong>Extracted Text:</strong> <%= result %></div>
+        
+        <div class="expiration-container">
+            <strong>Expiration Date:</strong> <%= expirationDate || 'Not Found' %>
+        </div>
+        
+        <a href="/">Upload another image</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name</p>
+    </footer>
+</body>
+</html>
